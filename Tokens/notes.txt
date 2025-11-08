@@ -125,3 +125,47 @@ Secondary ke help se hi promary conatant bana hua hai
 
 Integer, real , character yeah sab hai promary constanst
 pointer, array, string, structure, union, enumerator yeah sab hai secondary conatants. 
+
+C language mein aggar ham 6 ki baat kare then its an integer number 
+but aggar ham 1.2 ki baat kare then yeah ek real number hai 
+
+character constanst: any symbol can be a character conatant aggar woh single quotes 
+mein ho and uska lanegth 1 hai. single quoate lagaoge tab woh character constant hai 
+aggar woh single quotes nahi lagaoge ho sakhta hai ki wob constant ho ho sakhta hai 
+ki woh vaiable ho 
+
+aap capital bhi use kar sakhte hai with single quote that will be a character 
+constant aggar aap 3 ko bhi single quote mein likhoge tab bhi woh ek character 
+conastant hoga 
+
+aur aggar mein likhun '-4' toh kya yeah ek character constanst hai nahi yeah wala 
+nahi hai yeah ek character conastant nahi hai kyun ki es mein 2 symbol hai 
+ek hai - and aur ek hai 4 . 
+
+length one hona chahiye but yahan toh 2 hai length 
+
+kuch aise bhi hai jis mein 2 symbol hai but still woh ek character constant hai 
+jaise ki '\n' , '\t', '\0'
+
+string constant ko c language mein ham likhenge "" quotes mein. 
+"bhopal"
+
+Notes:
+------
+jab jab program ko run hoga woh ram ke andar aaega (matlab ram mein load hoga)pehle aur yeah sab c and c++ ki baat nahi hai yeah sare language mein hota hai. 
+
+haan toh sabpe pehle ram mein load hota hai aur usko memory chahiye hota hai
+program bada ho ya chota usse kuch farak nahi padhta kyun ki memory har 
+program ko same hi milta hai 
+
+variable:
+---------
+variable us memory location ka name hai where we store programs data during
+execution of program. 
+
+variable name is the combination of alphabets (a to z or A to Z) digitd to(0 to 9)
+and underscore (_)
+
+no other symbol are allowed
+valid variable name cannot start with a digit 
+variable name cannot be a keyword.
