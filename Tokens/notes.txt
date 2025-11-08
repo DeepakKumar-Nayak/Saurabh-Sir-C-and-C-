@@ -1,0 +1,127 @@
+🧠 Types of Tokens in C
+
+C language me total 6 types ke tokens hote hain 👇
+
+1️⃣ Keywords
+Predefined reserved words (compiler ke liye special meaning hoti hai)
+int, return, if, else, for, while, break, float, char
+
+2️⃣ Identifiers
+Names given to variables, functions, arrays, etc.
+a, sum, main, totalMarks
+
+3️⃣ Constants
+Fixed values jo program me change nahi hoti
+10, 'A', 3.14, "Hello"
+
+4️⃣ Operators
+Symbols used to perform operations
++, -, *, /, =, ==, >
+
+5️⃣ Special Symbols
+Characters with special meaning in C
+(), {}, [], ;, #, ,
+
+6️⃣ Strings / Punctuators
+Sequence of characters enclosed in double quotes
+"Deepak", "Hello World"
+
+⚙️ Example Breakdown
+--------------------
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 20, sum;
+    sum = a + b;
+    printf("Sum is: %d", sum);
+    return 0;
+}
+
+🧩 Token Breakdown:
+-------------------
+Token               Type           
+---------           ---------
+
+#include            Preprocessor Directive
+<stdio.h>           Header file
+int                 Keyword
+main                Identifier
+()                  Special symbol
+{                   Special symbol
+a                   Identifier
+=                   Operator
+10                  Constant
+,                   Special symbol
+b                   Identifier
+20                  Constant
+sum                 Identifier
++                   Operator
+;                   Special symbol
+"Sum is: %d"        String Constant
+return              Keyword
+0                   Constant
+}                   Special symbol
+
+Compiler 
+-------
+Compiler ka kam hai source code ko machine code meinn convert karna.
+and c language mein machine code generate hota hai woh platform dependent hota hai 
+
+uska reason hai yeh ki compilers allag allag atte hein , koi compiler source code 
+ko windows ke hisab se convert karta hai toh koi compiler source code ko kisi dusre 
+operating system ke hisab se convert karta hai.  
+
+abhi jo ham compiler use kar rahe hai woh hamara source code ko convert karega 
+jo bhi operating system ham use kar rahe hai usmein 
+
+aur hamne jo surce code likha hai usko kon read kar raha hai usko compiler read 
+kar raha hai kyun wohi toh usko translate karega aur hamne jo bhi likha hai 
+compiler ko samajh mein bhi anna chahiye aur complier ke nazar mein program ke 
+andar jo sabse choti meaninful chiz hai that is known as token. 
+
+Complier ek bada program hai usko support karne ke liye ek chota program hai parser
+parser ka kam hota hai pura program mein complier apna pura kam shuru kar sakhien 
+usse pehle parser apke sare programs ko tokens mein breakdown karta hai ek ek ko 
+allag allag karta hai 
+
+toh parse hamara jo hai toh tokens chatne ka kam karta hai. 
+
+Tokens:
+------
+constanst(literals): conatant bolo ya literal bolo ek hi baat hai constant matlab 
+as it is jo likha gaya hai wo as it is mana jaega 
+
+Identifier: program mein woh name jo resuable hote hai jaise ki variable, functions 
+kisi chiz ko indentify karne ke liye hame identifiers ki jarurat padegi. 
+
+keywords: int ek keyword hai.
+
+int a = 5; 
+esline mein bahut sare tokens hai jaise ki 
+int, a, =, 5, ;
+
+int ek keyword hai 
+uske bad hamne diya hai space then a ek identifier hai , = ek operator hai 
+and 5 ek conatant hai and at the end (;) ek punctuators hai. 
+
+White Spaces:
+-------------
+Tokens are usually separated by white spaces like blanks, tabs, new lines comments.
+
+Comments:
+--------- 
+Comments are the text which are ignored by complier.
+Comments are useful for documentation of ypur code and useful for programmers
+There are two types of comments 
+    1. single line comments. 
+    2. multi line comments.
+
+
+Constants:
+-----------
+Primary constant and Secondary Constant
+Primary ko padhne ke baad hi aap secondary constanst padh sakhte ho 
+Secondary ke help se hi promary conatant bana hua hai   
+
+Integer, real , character yeah sab hai promary constanst
+pointer, array, string, structure, union, enumerator yeah sab hai secondary conatants. 
